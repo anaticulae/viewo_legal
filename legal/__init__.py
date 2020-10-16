@@ -12,6 +12,7 @@ import os
 from legal.document import agb
 from legal.document import contact
 from legal.document import impressum
+from legal.document import privacy
 
 __version__ = '0.1.0'
 

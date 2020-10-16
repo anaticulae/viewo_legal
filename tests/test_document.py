@@ -17,3 +17,4 @@ def test_deliver_document():
 
     assert legal.impressum()
     assert legal.agb()
+    assert legal.privacy()

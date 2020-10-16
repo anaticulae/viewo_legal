@@ -26,6 +26,10 @@ def contact():
     return load_file('contact')
 
 
+def privacy():
+    return load_file('privacy')
+
+
 def load_file(name: str) -> str:
     """Load file and append current version number."""
     path = os.path.join(legal.ROOT, f'legal/text/{name}')
