@@ -12,7 +12,6 @@ import legal
 
 def test_deliver_document():
     contact = legal.contact()
-    assert 'Kontakt' in contact
     assert 'Version' in contact
 
     assert legal.impressum()
