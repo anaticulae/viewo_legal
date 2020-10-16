@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.1.2
+
+### Fix
+
+* deliver documents correctly (5886adc2102b)
+
 ## v0.1.1
 
 ### Feature
