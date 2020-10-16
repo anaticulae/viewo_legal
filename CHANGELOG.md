@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.1.1
+
+### Feature
+
+* add privacy document (1ba7ca71d5b7)
+
 ## v0.1.0
 
 ### Feature
