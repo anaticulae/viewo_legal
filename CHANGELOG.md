@@ -2,6 +2,12 @@
 
 Every noteable change is logged here.
 
+## v0.2.0
+
+### Feature
+
+* add first draft of impressum and privacy (095bf07e14fa)
+
 ## v0.1.2
 
 ### Fix

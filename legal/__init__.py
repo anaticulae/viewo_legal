@@ -14,6 +14,6 @@ from legal.document import contact
 from legal.document import impressum
 from legal.document import privacy
 
-__version__ = '0.1.2'
+__version__ = '0.2.0'
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
