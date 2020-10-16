@@ -38,6 +38,7 @@ if __name__ == "__main__":
         author_email='info@checkitweg.de',
         description='important informatation',
         install_requires=INSTALL_REQUIRES,
+        include_package_data=True,
         long_description=README,
         name='legal',
         platforms='any',
@@ -51,6 +52,5 @@ if __name__ == "__main__":
         ],
         packages=[
             'legal',
-            'legal.text',
         ],
     )
