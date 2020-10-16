@@ -6,7 +6,12 @@
 # use or distribution is an offensive act against international law and may
 # be prosecuted under federal law. Its content is company confidential.
 #==============================================================================
+
 import os
+
+from legal.document import agb
+from legal.document import contact
+from legal.document import impressum
 
 __version__ = '0.0.0'
 
