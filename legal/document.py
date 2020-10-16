@@ -41,7 +41,7 @@ def load_file(name: str) -> str:
 TEMPLATE = """\
 {text}
 
-_________________________________
+______________
 Version: {version}
 """
 
