@@ -1,5 +1,5 @@
 Welcome to important informatation
-=================================
+==================================
 
 Progress
 --------
@@ -12,7 +12,8 @@ Progress
   pages/changelog
 
 Modules
---------------------
+-------
+
 .. toctree::
    :maxdepth: 4
 
@@ -24,4 +25,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
