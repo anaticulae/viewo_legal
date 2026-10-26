@@ -7,13 +7,13 @@
 # be prosecuted under federal law. Its content is company confidential.
 # =============================================================================
 
-import legal
+import viewo_legal
 
 
 def test_deliver_document():
-    contact = legal.contact()
+    contact = viewo_legal.contact()
     assert 'Version' in contact
 
-    assert legal.impressum()
-    assert legal.agb()
-    assert legal.privacy()
+    assert viewo_legal.impressum()
+    assert viewo_legal.agb()
+    assert viewo_legal.privacy()

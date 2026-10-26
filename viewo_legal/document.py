@@ -9,9 +9,9 @@
 
 import os
 
-import utila
+import utilo
 
-import legal
+import viewo_legal
 
 
 def agb():
@@ -32,8 +32,8 @@ def privacy():
 
 def load_file(name: str) -> str:
     """Load file and append current version number."""
-    path = os.path.join(legal.ROOT, f'legal/text/{name}')
-    content = utila.file_read(path)
+    path = os.path.join(viewo_legal.ROOT, f'viewo_legal/text/{name}')
+    content = utilo.file_read(path)
     result = version_append(content)
     return result
 
@@ -49,6 +49,6 @@ Version: {version}
 def version_append(text: str) -> str:
     result = TEMPLATE.format(
         text=text,
-        version=legal.__version__,
+        version=viewo_legal.__version__,
     )
     return result

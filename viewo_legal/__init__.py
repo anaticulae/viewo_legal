@@ -7,13 +7,14 @@
 # be prosecuted under federal law. Its content is company confidential.
 #==============================================================================
 
+import importlib.metadata
 import os
 
-from legal.document import agb
-from legal.document import contact
-from legal.document import impressum
-from legal.document import privacy
+from viewo_legal.document import agb
+from viewo_legal.document import contact
+from viewo_legal.document import impressum
+from viewo_legal.document import privacy
 
-__version__ = '0.3.1'
+__version__ = importlib.metadata.version('viewo_legal')
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
