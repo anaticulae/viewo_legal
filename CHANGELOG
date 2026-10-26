@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v1.0.1 (2026-10-26)
+
+### Chores
+
+- **make**: Do not release twice
+  ([`2a9605e`](https://github.com/anaticulae/viewo_legal/commit/2a9605e027eeff8ccb7a88bfffdb9878ec34b08f))
+
+
 ## v1.0.0 (2026-10-26)
 
 ### Chores
