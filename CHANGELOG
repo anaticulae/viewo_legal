@@ -1,57 +1,114 @@
-# Changelog
+# CHANGELOG
 
-Every noteable change is logged here.
+
+## v1.0.0 (2026-10-26)
+
+### Chores
+
+- **github**: Add .github
+  ([`a3f1680`](https://github.com/anaticulae/viewo_legal/commit/a3f16801ba28b7527a5e2db5cf0f985aab93c549))
+
+- **pyproject**: Add modern layout
+  ([`941509a`](https://github.com/anaticulae/viewo_legal/commit/941509ad8154b61f7b2472bf4770c19272a3ae3f))
+
+- **readme**: Remove outdated files
+  ([`c8da6d0`](https://github.com/anaticulae/viewo_legal/commit/c8da6d088ef8b6edb4adcbb5172f15b60304c22c))
+
 
 ## v0.3.1 (2022-12-21)
 
-### Chore
+### Chores
 
-* use quick install (7365168efe0d)
-* upgrade requirements.txt (f905b4787645)
-* upgrade pipeline (ccce96264416)
-* move project config (7e13f741cfb8)
+- **Jenkins**: Upgrade pipeline
+  ([`ccce962`](https://github.com/anaticulae/viewo_legal/commit/ccce96264416ed846e5ed6f2ec0378dda5468048))
+
+- **project**: Move project config
+  ([`7e13f74`](https://github.com/anaticulae/viewo_legal/commit/7e13f741cfb853162cd7ce3d8794102f5fa11d2c))
+
+- **requirements**: Upgrade requirements.txt
+  ([`f905b47`](https://github.com/anaticulae/viewo_legal/commit/f905b47876451d30944d9d7ccbc600a2704f679c))
+
+- **setup**: Use quick install
+  ([`7365168`](https://github.com/anaticulae/viewo_legal/commit/7365168efe0daee14bb170e830ca0c7184e68abe))
+
 
 ## v0.3.0 (2022-10-03)
 
-### Feature
+### Chores
 
-* add dropbox privacy document (b6d08b347939)
+- **ci**: Add Jenkinsfile
+  ([`fd2691a`](https://github.com/anaticulae/viewo_legal/commit/fd2691ae685f5db517b9c9ff28760739dfdb737a))
+
+- **requirements**: Upgrade requirements.txt
+  ([`309a7a4`](https://github.com/anaticulae/viewo_legal/commit/309a7a468015ccf9641c833bc770efb95c59229e))
+
+- **requirements**: Upgrade requirements.txt
+  ([`8d7462a`](https://github.com/anaticulae/viewo_legal/commit/8d7462abcc5c1bf38620703560a211300b9c7373))
+
+### Code Style
+
+- **changelog**: Adjust automation tool
+  ([`bba6b34`](https://github.com/anaticulae/viewo_legal/commit/bba6b344b4ece10a4d6251d4df11927c217c93c7))
 
 ### Documentation
 
-* adjust headline (f4b6ac2f3d7a)
-* happy New Year! (abe2f8b90507)
-* happy New Year! (1afe7694c588)
+- **copyright**: Happy New Year!
+  ([`abe2f8b`](https://github.com/anaticulae/viewo_legal/commit/abe2f8b9050705f82828853c9596c04e797454df))
 
-### Chore
+- **copyright**: Happy New Year!
+  ([`1afe769`](https://github.com/anaticulae/viewo_legal/commit/1afe7694c588e540d769f18463a14f125844cf05))
 
-* add Jenkinsfile (fd2691ae685f)
-* upgrade requirements.txt (309a7a468015)
-* upgrade requirements.txt (8d7462abcc5c)
+- **style**: Adjust headline
+  ([`f4b6ac2`](https://github.com/anaticulae/viewo_legal/commit/f4b6ac2f3d7ac53d036b02add8f1b82686f55e4c))
 
-## v0.2.0
+### Features
 
-### Feature
+- **source**: Add dropbox privacy document
+  ([`b6d08b3`](https://github.com/anaticulae/viewo_legal/commit/b6d08b347939ce0df71a4082e22743de7fea3e99))
 
-* add first draft of impressum and privacy (095bf07e14fa)
 
-## v0.1.2
+## v0.2.0 (2020-10-17)
 
-### Fix
+### Code Style
 
-* deliver documents correctly (5886adc2102b)
+- **makeup**: Adjust bottom line
+  ([`79341cd`](https://github.com/anaticulae/viewo_legal/commit/79341cdf1f2bed8b3794dffe06fb64fdac722026))
 
-## v0.1.1
+### Features
 
-### Feature
+- **text**: Add first draft of impressum and privacy
+  ([`095bf07`](https://github.com/anaticulae/viewo_legal/commit/095bf07e14faf98d40a7f5cdd3a6af465a817967))
 
-* add privacy document (1ba7ca71d5b7)
 
-## v0.1.0
+## v0.1.2 (2020-10-16)
 
-### Feature
+### Bug Fixes
 
-* add basic document provider structure (2506fe64e671)
+- **setup**: Deliver documents correctly
+  ([`5886adc`](https://github.com/anaticulae/viewo_legal/commit/5886adc2102bf904362eb5de1337f541710547d4))
 
-## v0.0.0 Initial release
 
+## v0.1.1 (2020-10-16)
+
+### Features
+
+- **privacy**: Add privacy document
+  ([`1ba7ca7`](https://github.com/anaticulae/viewo_legal/commit/1ba7ca71d5b705d3349ea699a3946f9ea5479baa))
+
+
+## v0.1.0 (2020-10-16)
+
+### Chores
+
+- **requirements**: Add utila dependency
+  ([`2426ea8`](https://github.com/anaticulae/viewo_legal/commit/2426ea80bd55e4309286612e3da0b6371a6b84f2))
+
+### Features
+
+- **document**: Add basic document provider structure
+  ([`2506fe6`](https://github.com/anaticulae/viewo_legal/commit/2506fe64e671d58fd9de8674102375ef1a752964))
+
+
+## v0.0.0 (2020-10-16)
+
+- Initial Release
